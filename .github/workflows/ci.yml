@@ -12,7 +12,7 @@ jobs:
         uses: invisirisk/pse-action@dev-test
         with:
           api_url: "https://app.dev.invisirisk.com"
-          app_token: ${{ secrets.IR_API_KEY_STAGE }}
+          app_token: ${{ secrets.IR_API_KEY }}
 
       - uses: actions/checkout@v4
 
